@@ -24,10 +24,10 @@ public class Product {
 	public void setCost(float cost) {
 		this.cost = cost;
 	}
-	public Product(String name, int quantity, float d) {
+	public Product(String name, int quantity, float cost) {
 		this.name = name;
 		this.quantity = quantity;
-		this.cost = d;
+		this.cost = cost;
 	}
 
 
