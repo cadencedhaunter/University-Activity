@@ -25,8 +25,8 @@ public class firstLabWork {
 		for(Product product : productPool) {
 			summaryCost += product.getCost();
 			summaryQuantity += product.getQuantity();
-			System.out.println(product.getName() + ' '
-					   product.getCost() + ' '
+			System.out.println(product.getName() + ' ' +
+					   product.getCost() + ' ' +
 					   product.getQuantity());
  		}
  
