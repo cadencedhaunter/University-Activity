@@ -1,4 +1,3 @@
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -52,10 +51,8 @@ public class Runner {
                     System.out.println("Incorrect value");
             }
             statement.close();
-        } catch (final ClassNotFoundException e) {
-            System.out.println("ClassNotFoundException");
-        } catch (final SQLException e) {
-            System.out.println("SQLException");
+        } catch (ClassNotFoundException | SQLException e) {
+            e.printStackTrace();
         }
     }
 }
